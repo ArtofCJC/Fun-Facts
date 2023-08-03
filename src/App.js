@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Fact1 from './components/fact1';
 import Fact2 from './components/fact2';
 import Fact3 from './components/fact3';
+
 import './App.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path='/fact3' element={<Fact3 />} />
           </Routes>
         </div>
+        
       </BrowserRouter>
     );
   }
